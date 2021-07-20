@@ -20,15 +20,22 @@ sudo apt update
 sudo apt install -y git libvirt-daemon-system libvirt-clients qemu-kvm qemu-utils virt-manager ovmf qbittorrent snapd neofetch paper-icon-theme papirus-icon-theme lutris steam minecraft-launcher --install-recommends winehq-devel
 sudo ubuntu-drivers autoinstall
 cd ~/.icons && git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
+cd ~/Downloads/ && wget -c -O Adapta-Nokto.zip https://cinnamon-spices.linuxmint.com/files/themes/Adapta-Nokto.zip?time=1626796848
+unzip Adapta-Nokto.zip -d ~/.themes && rm Adapta-Nokto.zip
 sudo apt autoclean && sudo apt autoremove -y
 sudo apt dist-upgrade -y
 
-## Installing Snaps | Instalando Snaps ##
-sudo snap install discord spotify ungoogled-chromium onlyoffice-desktopeditors
+## Changing the icon, themes, etc. | Trocando os ícones, temas, etc.
+gsettings set org.cinnammon.desktop.wm.preferences theme 'Adapta-Nokto'
+gsettings set org.cinnamon.desktop.interface icon-theme 'ePapirus'
+gsettings set org.cinnamon.desktop.interface gtk-theme 'Adapta-Nokto'
+gsettings set org.cinnamon.desktop.interface cursor-theme 'paper'
+gsettings set org.cinnamon.theme name 'Adapta-Nokto'
 
 ## Downloading xmr-stak-rx and doing its corrections | Baixando xmr-stak-rx e fazendo suas correções ##
-cd ~/Downloads && wget -c https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
-tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+wget -c https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz && rm xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+chmod +x ~/Downloads/xmr-stak-rx-linux-1.0.5-cpu/xmr-stak-rx
 sudo echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf && sudo sysctl -p
 
 ## Restarting to apply all the upgrades and to Snaps working correctly | Reiniciando para aplicar todas as atualições e para Snaps funcionarem corretamente ##

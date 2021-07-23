@@ -9,10 +9,11 @@ sudo dpkg --add-architecture i386
 ## Installing repositories | Instalando repositórios ##
 sudo add-apt-repository ppa:papirus/papirus -y
 sudo add-apt-repository ppa:lutris-team/lutris -y
+sudo apt-add-repository ppa:graphics-drivers/ppa -y
+sudo add-apt-repository ppa:snwh/ppa -y
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' 
-sudo add-apt-repository ppa:snwh/ppa -y
 
 ## Installing updates, packages, apps and icons | Instalando atualizações, pacotes, apps e ícones ##
 sudo rm /etc/apt/preferences.d/nosnap.pref

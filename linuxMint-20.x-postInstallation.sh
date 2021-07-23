@@ -23,7 +23,7 @@ ubuntu-drivers autoinstall
 cd ~/.icons && git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 cd ~/Downloads/ && wget -c -O Adapta-Nokto.zip https://cinnamon-spices.linuxmint.com/files/themes/Adapta-Nokto.zip?time=1626796848
 unzip Adapta-Nokto.zip -d ~/.themes && rm Adapta-Nokto.zip
-apt autoclean && sudo apt autoremove -y
+apt autoclean && apt autoremove -y
 apt dist-upgrade -y
 
 ## Changing the icon, themes, etc. | Trocando os ícones, temas, etc.
@@ -37,7 +37,7 @@ gsettings set org.cinnamon.theme name 'Adapta-Nokto'
 wget -c https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz && rm xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 chmod +x ~/Downloads/xmr-stak-rx-linux-1.0.5-cpu/xmr-stak-rx
-echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf && sudo sysctl -p
+echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf && sysctl -p
 
 ## Restarting to apply all the upgrades and to Snaps working correctly | Reiniciando para aplicar todas as atualições e para Snaps funcionarem corretamente ##
 reboot now

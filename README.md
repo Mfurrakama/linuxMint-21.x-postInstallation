@@ -14,10 +14,10 @@ chmod +x linuxMint-20.x-postInstallation.sh
   #### Hardware
   - **CPU**: AMD Ryzen 5 1500x 4c/8t 3.5GHz/3.7GHz
   - **GPU**: Asus Phoenix NVIDIA 1650 4GB GDDR6
-  - **RAM**: Some random Corsair 16x2 overclocked to 2666 MHz
+  - **RAM**: Some random 16 GB Corsair (x2) overclocked to 2666 MHz
   - **Motherboard**: Gigabyte GA-AB350M-D3H Micro ATX
   - **SSD**: Sandisk 500 GB (SATA)
-  - **HDD**: 500x2 GB
+  - **HDD**: 500 GB (x2)
   - **PSU**: EVGA 600 80 Plus
   
   #### Why I created this?
@@ -28,10 +28,10 @@ chmod +x linuxMint-20.x-postInstallation.sh
   #### Hardware
   - **Processador**: AMD Ryzen 5 1500x 4c/8t 3.5GHz/3.7GHz
   - **Placa de vídeo**: Asus Phoenix NVIDIA 1650 4GB GDDR6
-  - **RAM**: Alguma memória aleatória da Corsair 16x2 overclockada para 2666 MHz
+  - **RAM**: Alguma memória aleatória da Corsair 16 (x2) overclockada para 2666 MHz
   - **Placa mãe**: Gigabyte GA-AB350M-D3H Micro ATX
   - **SSD**: Sandisk 500 GB (SATA)
-  - **HDD**: 500x2 GB
+  - **HDD**: 500 GB (x2)
   - **Fonte**: EVGA 600 80 Plus
   
   #### Por que eu criei isso?

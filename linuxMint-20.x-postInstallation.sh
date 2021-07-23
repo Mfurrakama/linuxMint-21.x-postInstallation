@@ -27,7 +27,7 @@ sudo apt autoclean && apt autoremove -y
 sudo apt dist-upgrade -y
 
 ## Changing the icon, themes, etc. | Trocando os ícones, temas, etc.
-gsettings set org.cinnammon.desktop.wm.preferences theme 'Adapta-Nokto'
+gsettings set org.cinnamon.desktop.wm.preferences theme 'Adapta-Nokto'
 gsettings set org.cinnamon.desktop.interface icon-theme 'ePapirus'
 gsettings set org.cinnamon.desktop.interface gtk-theme 'Adapta-Nokto'
 gsettings set org.cinnamon.desktop.interface cursor-theme 'paper'

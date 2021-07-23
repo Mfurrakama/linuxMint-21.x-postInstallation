@@ -6,6 +6,7 @@ A script that adjust the Linux Mint 20.x into my personal taste, hope you enjoy!
 wget https://github.com/Mfurrakama/linuxMint-20.x-postInstallation/raw/main/linuxMint-20.x-postInstallation.sh
 sudo chmod +x linuxMint-20.x-postInstallation.sh
 ./linuxMint-20.x-postInstallation.sh
+rm linuxMint-20.x-postInstallation.sh ##optional.
 ```
 
 ## My hardware and my needs (en_US)

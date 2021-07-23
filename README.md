@@ -21,7 +21,7 @@ chmod +x linuxMint-20.x-postInstallation.sh
   - **PSU**: EVGA 600 80 Plus
   
   #### Why I created this?
-  Actually for fun, nowadays I use PopOS! 21.04, the Gnome envoriment and the Pop!_shop are quite usefull and unique. But if I go back to Linux Mint (maybe someday) I already have a desktop working as expected.
+  Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop!_shop are quite usefull and unique. But if I go back to Linux Mint (maybe someday) I already have a desktop working as expected.
   
   ## Meu hardware e minhas necessidades (pt_BR)
   

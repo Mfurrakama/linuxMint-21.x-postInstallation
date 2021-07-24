@@ -2,6 +2,7 @@
 A script that adjust the Linux Mint 20.x into my personal taste, hope you enjoy! | Um scrip que ajusta o Linux Mint para minhas preferências, espero que goste!
 
 ## Installation | Instalação
+Open you terminal (control + alt + t) and type the following commands:
 ```sh
 wget https://github.com/Mfurrakama/linuxMint-20.x-postInstallation/raw/main/linuxMint-20.x-postInstallation.sh
 sudo chmod +x linuxMint-20.x-postInstallation.sh
@@ -27,9 +28,6 @@ rm linuxMint-20.x-postInstallation.sh ##optional.
   - **HDD**: 500 GB (x2)
   - **PSU**: EVGA 600 80 Plus
   
-  #### Why I created this?
-Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop!_shop are quite usefull and unique. But if I go back to Linux Mint (maybe someday) I already have a desktop working as expected.
-  
   #### What will this script do?
   Apps that are going to be removed:
   - **LibreOffice**
@@ -53,6 +51,15 @@ Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop
   - **Steam**
   - **Minecraft**
   - **Wine**
+  - **Discord** (Flatpak)
+  - **Ungoogled Chromium** (Flatpak)
+  - **Spotify** (Flatpak)
+  - **Dolphin Emulator** (Flatpak)
+  - **Citra** (Flatpak)
+  - **Telegram** (Flatpak)
+    
+  #### Why I created this?
+Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop!_shop are quite usefull and unique. But if I go back to Linux Mint (maybe someday) I already have a desktop working as expected.
   
   ## Meu hardware e minhas necessidades (pt_BR)
   
@@ -88,6 +95,12 @@ Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop
   - **Steam**
   - **Minecraft**
   - **Wine**
+  - **Discord** (Flatpak)
+  - **Ungoogled Chromium** (Flatpak)
+  - **Spotify** (Flatpak)
+  - **Dolphin Emulator** (Flatpak)
+  - **Citra** (Flatpak)
+  - **Telegram** (Flatpak)
   
   #### Por que eu criei isso?
   Na verdade por diversão, hoje em dia eu uso PopOS! 21.04, a desktop Gnome e a Pop!_shop são bastantes úteis e únicas. Mas se eu voltar para o Linux Mint (talvez algum dia) Eu já tenho um desktop funcionando como o esperado.

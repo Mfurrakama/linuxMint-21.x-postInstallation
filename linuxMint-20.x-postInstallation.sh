@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Removing unnecessary programs. | Removendo programas desnecessários. ##
-sudo apt remove -y libreoffice-common hexchat thunderbird transmission
+sudo apt remove -y libreoffice-common hexchat thunderbird transmission-gtk
 
 ## Ensuring 32-bit support. | Garantindo o suporte à 32-bit. ##
 sudo dpkg --add-architecture i386

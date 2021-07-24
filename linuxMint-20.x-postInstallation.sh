@@ -19,6 +19,7 @@ sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal mai
 sudo rm /etc/apt/preferences.d/nosnap.pref
 sudo apt update
 sudo apt install -y git libvirt-daemon-system libvirt-clients qemu-kvm qemu-utils virt-manager ovmf qbittorrent snapd neofetch paper-icon-theme papirus-icon-theme gamemode lutris steam minecraft-launcher --install-recommends winehq-devel
+flatpak install flathub -y com.discordapp.Discord com.github.Eloston.UngoogledChromium com.spotify.Client org.DolphinEmu.dolphin-emu org.citra_emu.citra org.telegram.desktop
 sudo ubuntu-drivers autoinstall
 cd ~/.icons && git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 cd ~/Downloads/ && wget -c -O Adapta-Nokto.zip https://cinnamon-spices.linuxmint.com/files/themes/Adapta-Nokto.zip?time=1626796848

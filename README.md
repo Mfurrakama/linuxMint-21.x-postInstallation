@@ -5,7 +5,7 @@ A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy
 Open your terminal (control + alt + t) and type the following commands:
 ```sh
 wget https://github.com/Mfurrakama/linuxMint-20.x-postInstallation/raw/main/linuxMint-20.x-postInstallation.sh
-sudo chmod +x linuxMint-20.x-postInstallation.sh
+chmod +x linuxMint-20.x-postInstallation.sh
 ./linuxMint-20.x-postInstallation.sh
 rm linuxMint-20.x-postInstallation.sh ##optional.
 ```
@@ -26,7 +26,7 @@ rm linuxMint-20.x-postInstallation.sh ##optional.
   - **Motherboard**: Gigabyte GA-AB350M-D3H Micro ATX
   - **SSD**: Sandisk 500 GB (SATA)
   - **HDD**: 500 GB (x2)
-  - **PSU**: EVGA 600 80 Plus
+  - **PSU**: EVGA 600W 80 Plus
   
   #### What will this script do?
   Apps that are going to be removed:
@@ -70,7 +70,7 @@ Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop
   - **Placa mãe**: Gigabyte GA-AB350M-D3H Micro ATX
   - **SSD**: Sandisk 500 GB (SATA)
   - **HDD**: 500 GB (x2)
-  - **Fonte**: EVGA 600 80 Plus
+  - **Fonte**: EVGA 600W 80 Plus
 
 #### O que esse script vai fazer?
   Apps que vão ser removidos:

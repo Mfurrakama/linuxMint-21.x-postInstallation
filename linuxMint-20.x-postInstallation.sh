@@ -18,6 +18,7 @@ sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal mai
 ## Installing updates, packages, apps and icons. | Instalando atualizações, pacotes, apps e ícones. ##
 sudo rm /etc/apt/preferences.d/nosnap.pref
 sudo apt update
+sudo apt -y upgrade
 sudo apt install -y git adb fastboot libvirt-daemon-system libvirt-clients qemu-kvm qemu-utils virt-manager ovmf qbittorrent snapd neofetch paper-icon-theme papirus-icon-theme gamemode lutris steam minecraft-launcher --install-recommends winehq-devel
 flatpak install flathub -y com.discordapp.Discord com.github.Eloston.UngoogledChromium com.spotify.Client org.DolphinEmu.dolphin-emu org.citra_emu.citra org.telegram.desktop
 sudo ubuntu-drivers autoinstall
@@ -25,7 +26,6 @@ cd ~/.icons && git clone https://github.com/keeferrourke/la-capitaine-icon-theme
 cd ~/Downloads/ && wget -c -O Adapta-Nokto.zip https://cinnamon-spices.linuxmint.com/files/themes/Adapta-Nokto.zip?time=1626796848
 unzip Adapta-Nokto.zip -d ~/.themes && rm Adapta-Nokto.zip
 sudo apt autoclean && apt autoremove -y
-sudo apt dist-upgrade -y
 
 ## Changing the icon, themes, etc. | Trocando os ícones, temas, etc.
 gsettings set org.cinnamon.desktop.wm.preferences theme 'Adapta-Nokto'
@@ -39,6 +39,3 @@ wget -c https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-st
 tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz && rm xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 sudo chmod +x ~/Downloads/xmr-stak-rx-linux-1.0.5-cpu/xmr-stak-rx
 sudo /bin/su -c "echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf" && sysctl -p
-
-## Restarting to apply all the upgrades and to Snaps working correctly. | Reiniciando para aplicar todas as atualições e para Snaps funcionarem corretamente. ##
-sudo reboot now

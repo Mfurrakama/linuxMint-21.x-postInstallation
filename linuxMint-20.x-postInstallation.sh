@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 
 ## Removing unnecessary programs. | Removendo programas desnecessários. ##
 sudo apt remove -y libreoffice-common hexchat thunderbird transmission-gtk

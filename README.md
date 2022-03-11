@@ -38,28 +38,28 @@ rm linuxMint-20.x-postInstallation.sh ##optional.
   PPAs that are going to be added:
   - **Papirus**
   - **Lutris**
-  - **NVIDIA**
+  - **MangoHud**
   - **Paper icon**
-  - **Wine**
+  - **WineHQ**
+  - **XanMod Kernel**
   
   Apps that are going to be installed:
   - **Virt-manager**
   - **Qbittorrent**
-  - **Snap**
   - **Neofetch**
+  - **XanMod kernel (edge)**
   - **Lutris**
   - **Steam**
   - **Minecraft**
-  - **Wine**
+  - **WineHQ** (Staging)
   - **Discord** (Flatpak)
   - **Ungoogled Chromium** (Flatpak)
-  - **Spotify** (Flatpak)
   - **Dolphin Emulator** (Flatpak)
   - **Citra** (Flatpak)
-  - **Telegram** (Flatpak)
+  - **Signal** (Flatpak)
     
   #### Why I created this?
-Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop!_shop are quite usefull and unique. But if I go back to Linux Mint (maybe someday) I already have a desktop working as expected.
+Because I need a somewhay to install all my preferences in short period of time. Nowadays I use PopOS! With 2 computers I also run Linux Mint on my secundary PC, this script may recieve better support overtime.
   
   ## Meu hardware e minhas necessidades (pt_BR)
   
@@ -82,25 +82,25 @@ Actually for fun, nowadays I use PopOS! 21.04, the Gnome environment and the Pop
   PPAs que vão ser adicionados:
   - **Papirus**
   - **Lutris**
-  - **NVIDIA**
+  - **MangoHud**
   - **Paper icon**
-  - **Wine**
+  - **WineHQ**
+  - **XanMod Kernel**
   
   Apps que vão ser instalados:
   - **Virt-manager**
   - **Qbittorrent**
-  - **Snap**
   - **Neofetch**
+  - **XanMod kernel (edge)**
   - **Lutris**
   - **Steam**
   - **Minecraft**
-  - **Wine**
+  - **WineHQ** (Staging)
   - **Discord** (Flatpak)
   - **Ungoogled Chromium** (Flatpak)
-  - **Spotify** (Flatpak)
   - **Dolphin Emulator** (Flatpak)
   - **Citra** (Flatpak)
-  - **Telegram** (Flatpak)
-  
+  - **Signal** (Flatpak)
+  - 
   #### Por que eu criei isso?
-  Na verdade por diversão, hoje em dia eu uso PopOS! 21.04, a desktop Gnome e a Pop!_shop são bastantes úteis e únicas. Mas se eu voltar para o Linux Mint (talvez algum dia) Eu já tenho um desktop funcionando como o esperado.
+  Porque eu preciso de um jeito para instalar minhas preferências o mais rápido possível. Hoje em dia eu uso o PopOS! Com 2 computadores eu também uso o Linux Mint no meu computador secundário, esse script vai receber um suporte melhor com o passar do tempo

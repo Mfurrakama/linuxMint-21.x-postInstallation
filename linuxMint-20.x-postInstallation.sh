@@ -41,3 +41,4 @@ tar -xf ~/Downloads/xmr-stak-rx-linux-1.0.5-cpu.tar.xz && rm ~/Downloads/xmr-sta
 sudo chmod +x ~/Downloads/xmr-stak-rx-linux-1.0.5-cpu/xmr-stak-rx
 sudo /bin/su -c "echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf" && sysctl -p
 neofetch
+echo "Reboot is recommended. | Reinicar é recomendado."

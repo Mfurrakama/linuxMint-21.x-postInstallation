@@ -2,12 +2,9 @@
 A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy! | Um scrip que ajusta o Linux Mint para minhas preferências, espero que goste!
 
 ## Installation | Instalação
-Open your terminal (control + alt + t) and type the following commands:
+Open your terminal (control + alt + t) and type the following command:
 ```sh
-wget https://github.com/Mfurrakama/linuxMint-20.x-postInstallation/raw/main/linuxMint-20.x-postInstallation.sh
-chmod +x linuxMint-20.x-postInstallation.sh
-./linuxMint-20.x-postInstallation.sh
-rm linuxMint-20.x-postInstallation.sh ##optional.
+curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/linuxMint-20.x-postInstallation.sh | bash
 ```
 ## Preview
 ### Desktop

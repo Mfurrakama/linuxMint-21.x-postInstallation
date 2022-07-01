@@ -42,14 +42,14 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
   
   #### Apps that are going to be installed:
-    **apt**
+   **apt**
   - Virt-manager
   - Neofetch
   - Lutris
   - WineHQ (Staging)
   - Snap
 
-    **flatpak**
+   **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
   - [Qbittorrent](https://flathub.org/apps/details/org.qbittorrent.qBittorrent)
   - [Steam](https://flathub.org/apps/details/com.valvesoftware.Steam)
@@ -92,7 +92,7 @@ Because I need someway to install all my preferences in short period of time. No
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
   
   #### Apps que vão ser instalados:
-    **apt**
+   **apt**
   - Virt-manager
   - Neofetch
   - Lutris

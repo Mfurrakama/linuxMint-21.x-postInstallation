@@ -92,7 +92,7 @@ Because I need someway to install all my preferences in short period of time. No
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
   
   #### Apps que vão ser instalados:
-    **apt**
+   **apt**
   - Virt-manager
   - Neofetch
   - Lutris

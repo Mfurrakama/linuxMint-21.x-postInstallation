@@ -19,13 +19,14 @@ sudo apt update && sudo apt -y full-upgrade
 sudo apt install -y git adb fastboot virt-manager neofetch neofetch gamemode mangohud lutris winehq-staging autoconf automake inkscape libgdk-pixbuf2.0-dev libglib2.0-dev libxml2-utils pkg-config sassc parallel v4l2loopback-dkms
 sudo apt autoclean && sudo apt autoremove -y
 ## flatpak
-flatpak install flathub -y com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture
+flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install -y --user com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture
 flatpak update -Y
 flatpak override --user --filesystem=xdg-config/MangoHud:ro com.valvesoftware.Steam
 
 # Installing Adapta Nokto/Papirus from source. | Instalando Adapta Nokto/Papirus da fonte.
 ## Adapta Nokto
-https://github.com/adapta-project/adapta-gtk-theme "$HOME/adapta-gtk-theme/"
+git clone https://github.com/adapta-project/adapta-gtk-theme "$HOME/adapta-gtk-theme/"
 cd "$HOME/adapta-gtk-theme/"
 ./autogen.sh --prefix=/usr --enable-parallel 
 make

@@ -2,12 +2,32 @@
 A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy! | Um script que ajusta o Linux Mint para minhas preferências, espero que goste!
 
 ## Installation | Instalação
-Open your terminal (control + alt + t) and type the following command:
+Open your terminal (control + alt + t) and type the following command: | Abra seu terminal (Ctrl + Alt + T) e digite o comando a seguir:
 ```sh
-curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/linuxMint-20.x-postInstallation.sh | bash
+curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/install.sh | bash
 ```
+
+## Uninstallation | Desinstalaçãõ
+Open your terminal (control + alt + t) and type the following command: | Abra seu terminal (Ctrl + Alt + T) e digite o comando a seguir:
+```sh
+curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/revert.sh | bash
+```
+
+# Table of Contents
+* [Preview](#preview)
+  *[Desktop](#desktop--área-de-trabalho)
+  *[File Manager](#file-manager--gerenciador-de-arquivos)
+  *[Terminal](#terminal)
+* [My hardware and my needs](#my-hardware-and-my-needs-enus)
+  * [Hardware](#hardware)
+  * [What will this script do?](#what-will-this-script-do)
+  * [Apps that are going to be removed](#apps-that-are-going-to-be-removed)
+  * [PPAs that are going to be added](#ppas-that-are-going-to-be-added)
+  * [Apps that are going to be installed](#apps-that-are-going-to-be-installed)
+  * [Why I created this?](#why-i-created-this)
+
 ## Preview
-### Desktop
+### Desktop | Área de Trabalho
 ![](assets/Screenshot01.png)
 ### File Manager | Gerenciador de arquivos
 ![](assets/Screenshot02.png)
@@ -76,9 +96,9 @@ Because I need someway to install all my preferences in short period of time. No
   - **Fonte**: EVGA 600W 80 Plus
 
 ### O que esse script vai fazer?
-  - Remove and install packages
-  - Change some config files
-  - Build programs (They're exceptions)
+  - Remover e instalar pacotes;
+  - Alterar alguns arquivos de configuração;
+  - Compilar alguns programas (Eles são exceções).
 
   #### Apps que vão ser removidos:
   - ~~LibreOffice~~

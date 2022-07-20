@@ -7,7 +7,7 @@ Open your terminal (control + alt + t) and type the following command: | Abra se
 curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/install.sh | bash
 ```
 
-## Uninstallation | Desinstalaçãõ
+## Uninstallation | Desinstalação
 Open your terminal (control + alt + t) and type the following command: | Abra seu terminal (Ctrl + Alt + T) e digite o comando a seguir:
 ```sh
 curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/revert.sh | bash

@@ -1,4 +1,4 @@
-# linuxMint-20.x-postInstallation
+# Linux Mint 21.x Post Installation Script
 A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy! | Um script que ajusta o Linux Mint para minhas preferências, espero que goste!
 
 ## Installation | Instalação
@@ -15,9 +15,9 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
 
 # Table of Contents
 * [Preview](#preview)
-  *[Desktop](#desktop--área-de-trabalho)
-  *[File Manager](#file-manager--gerenciador-de-arquivos)
-  *[Terminal](#terminal)
+  * [Desktop](#desktop--área-de-trabalho)
+  * [File Manager](#file-manager--gerenciador-de-arquivos)
+  * [Terminal](#terminal)
 * [My hardware and my needs](#my-hardware-and-my-needs-enus)
   * [Hardware](#hardware)
   * [What will this script do?](#what-will-this-script-do)
@@ -80,6 +80,8 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [Barrier](https://flathub.org/apps/details/com.github.debauchee.barrier)
   - [ONLYOFFICE](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
+  - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
+  - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
     
   #### Why I created this?
 Because I need someway to install all my preferences in short period of time. Nowadays I use PopOS! With 2 computers I also run Linux Mint on my secundary PC, this script may recieve better support overtime.
@@ -130,6 +132,8 @@ Because I need someway to install all my preferences in short period of time. No
   - [Barrier](https://flathub.org/apps/details/com.github.debauchee.barrier)
   - [ONLYOFFICE](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
+  - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
+  - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
 
   #### Por que eu criei isso?
   Porque eu preciso de um jeito para instalar minhas preferências o mais rápido possível. Hoje em dia eu uso o PopOS! Com 2 computadores eu também uso o Linux Mint no meu computador secundário, esse script vai receber um suporte melhor com o passar do tempo.

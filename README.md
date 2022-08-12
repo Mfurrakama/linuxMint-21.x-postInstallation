@@ -63,11 +63,12 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   
   #### Apps that are going to be installed:
    **apt**
-  - Virt-manager
-  - Neofetch
-  - Lutris
-  - WineHQ (Staging)
-  - Snap
+  - [Virt-manager](https://virt-manager.org/)
+  - [pfetch](https://github.com/dylanaraps/pfetch)
+  - [Lutris](https://lutris.net/)
+  - [WineHQ (Staging)](https://www.winehq.org/)
+  - [Snap](https://snapcraft.io/)
+  - [Nala](https://gitlab.com/volian/nala)
 
    **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
@@ -115,11 +116,11 @@ Because I need someway to install all my preferences in short period of time. No
   
   #### Apps que vão ser instalados:
    **apt**
-  - Virt-manager
-  - Neofetch
-  - Lutris
-  - WineHQ (Staging)
-  - Snap
+  - [Virt-manager](https://virt-manager.org/)
+  - [pfetch](https://github.com/dylanaraps/pfetch)
+  - [Lutris](https://lutris.net/)
+  - [WineHQ (Staging)](https://www.winehq.org/)
+  - [Snap](https://snapcraft.io/)
 
    **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)

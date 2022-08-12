@@ -24,13 +24,16 @@ sudo rm -rf "usr/share/icons/Papirus-Light"
 rm -rf "$HOME/adapta-gtk-theme/"
 
 # Bringing back the Mint's Welcome screen.
-rm "/home/socramy/.linuxmint/mintwelcome/norun.flag"
+rm "$HOMEq.linuxmint/mintwelcome/norun.flag"
+
+# Removing pfetch
+sudo rm /bin/pfetch
 
 # Uninstalling flatpaks programs
-flatpak remove -y com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture
+flatpak remove -y com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture org.mozilla.firefox org.gtk.Gtk3theme.Adapta-Nokto-Eta
 
 # Removing Adittional packages
 sudo apt remove -y mint-meta-codecs git adb fastboot virt-manager neofetch neofetch gamemode mangohud lutris winehq-staging autoconf automake inkscape v4l2loopback-dkms
 
 # Reinstalling default programs
-sudo apt install -y libreoffice-common hexchat thunderbird transmission-gtk
+sudo apt install -y libreoffice-common hexchat thunderbird transmission-gtk firefox

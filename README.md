@@ -38,7 +38,7 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
 
   #### Hardware
   - **CPU**: Intel Core i5-10400F
-  - **GPU**: Asus Phoenix NVIDIA 1650 4GB GDDR6
+  - **GPU**: ASUS Phoenix NVIDIA 1650 4GB GDDR6
   - **MB**: TUF Gaming B460M-Plus
   - **RAM**: Some random 16 GB Corsair (x2) overclocked to 2666 MHz
   - **SSD**: 960 GB (SATA)
@@ -55,11 +55,13 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - ~~Hexchat~~
   - ~~Thunderbird~~
   - ~~Transmission~~
+  - ~~Firefox~~
   
   #### PPAs that are going to be added:
   - [Lutris](https://launchpad.net/~lutris-team/+archive/ubuntu/lutris)
   - [MangoHud](https://launchpad.net/~flexiondotorg/+archive/ubuntu/mangohud)
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
+  - [Nala](https://gitlab.com/volian/nala)
   
   #### Apps that are going to be installed:
    **apt**
@@ -69,6 +71,7 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [WineHQ (Staging)](https://www.winehq.org/)
   - [Snap](https://snapcraft.io/)
   - [Nala](https://gitlab.com/volian/nala)
+  - [MangoHud](https://github.com/flightlessmango/MangoHud)
 
    **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
@@ -91,7 +94,7 @@ Because I need someway to install all my preferences in short period of time. No
   
   #### Hardware
   - **Processador**: Intel Core i5-10400F
-  - **Placa de vídeo**: Asus Phoenix NVIDIA 1650 4GB GDDR6
+  - **Placa de vídeo**: ASUS Phoenix NVIDIA 1650 4GB GDDR6
   - **Placa mãe**: TUF Gaming B460M-Plus
   - **RAM**: Alguma memória aleatória da Corsair 16 (x2) overclockada para 2666 MHz
   - **SSD**: 960 GB (SATA)
@@ -108,12 +111,14 @@ Because I need someway to install all my preferences in short period of time. No
   - ~~Hexchat~~
   - ~~Thunderbird~~
   - ~~Transmission~~
-  
+  - ~~Firefox~~
+
   ### PPAs que vão ser adicionados:
   - [Lutris](https://launchpad.net/~lutris-team/+archive/ubuntu/lutris)
   - [MangoHud](https://launchpad.net/~flexiondotorg/+archive/ubuntu/mangohud)
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
-  
+  - [Nala](https://gitlab.com/volian/nala)
+
   #### Apps que vão ser instalados:
    **apt**
   - [Virt-manager](https://virt-manager.org/)
@@ -121,6 +126,8 @@ Because I need someway to install all my preferences in short period of time. No
   - [Lutris](https://lutris.net/)
   - [WineHQ (Staging)](https://www.winehq.org/)
   - [Snap](https://snapcraft.io/)
+  - [Nala](https://gitlab.com/volian/nala)
+  - [MangoHud](https://github.com/flightlessmango/MangoHud)
 
    **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)

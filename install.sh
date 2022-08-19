@@ -15,10 +15,10 @@ sudo wget -nc -O "/usr/share/keyrings/winehq-archive.key" https://dl.winehq.org/
 sudo wget -nc -P "/etc/apt/sources.list.d/" https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 echo "deb https://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
 wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
+sudo rm /etc/apt/preferences.d/nosnap.pref
 
 ## apt
-sudo rm /etc/apt/preferences.d/nosnap.pref
-sudo apt update && sudo apt install nala
+sudo apt update && sudo apt install -y nala
 sudo nala upgrade -y
 sudo nala install -y mint-meta-codecs snapd git adb fastboot virt-manager cpufetch btop gamemode mangohud lutris winehq-staging autoconf automake inkscape libgdk-pixbuf2.0-dev libglib2.0-dev libxml2-utils pkg-config sassc parallel v4l2loopback-dkms
 sudo nala clean

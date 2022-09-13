@@ -29,7 +29,7 @@ flatpak remote-delete --system flathub
 flatpak override --user --filesystem=xdg-config/MangoHud:ro com.valvesoftware.Steam
 ## pfetch
 sudo wget https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch -O /bin/pfetch
-chmod +x /bin/pfetch
+sudo chmod +x /bin/pfetch
 
 # Removing Mint's welcome screen.
 mkdir -p "/$HOME/.linuxmint/mintwelcome/"

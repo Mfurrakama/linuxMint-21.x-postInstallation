@@ -86,7 +86,8 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
   - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
   - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
-    
+  - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive)
+
   #### Why I created this?
 Because I need someway to install all my preferences in short period of time. Nowadays I use PopOS! With 2 computers I also run Linux Mint on my secundary PC, this script may recieve better support overtime.
   
@@ -142,6 +143,7 @@ Because I need someway to install all my preferences in short period of time. No
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
   - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
   - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
+  - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive)
 
   #### Por que eu criei isso?
   Porque eu preciso de um jeito para instalar minhas preferências o mais rápido possível. Hoje em dia eu uso o PopOS! Com 2 computadores eu também uso o Linux Mint no meu computador secundário, esse script vai receber um suporte melhor com o passar do tempo.

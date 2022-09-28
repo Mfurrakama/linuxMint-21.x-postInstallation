@@ -2,8 +2,7 @@
 set -x
 
 # Removing unnecessary programs. | Removendo programas desnecessários.
-sudo apt purge -y libreoffice-common hexchat thunderbird transmission-gtk firefox
-
+sudo apt purge -y libreoffice* hexchat thunderbird transmission-gtk firefox*
 # Ensuring 32-bit support. | Garantindo o suporte à 32-bit.
 sudo dpkg --add-architecture i386
 
@@ -16,7 +15,6 @@ sudo wget -nc -P "/etc/apt/sources.list.d/" https://dl.winehq.org/wine-builds/ub
 echo "deb https://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
 wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
 sudo rm /etc/apt/preferences.d/nosnap.pref
-
 ## apt
 sudo apt update && sudo apt install -y nala
 sudo nala upgrade -y
@@ -24,12 +22,16 @@ sudo nala install -y mint-meta-codecs snapd git adb fastboot virt-manager cpufet
 sudo nala clean
 ## flatpak
 flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install -y --user com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.mozilla.firefox org.gtk.Gtk3theme.Adapta-Nokto-Eta
-flatpak remote-delete --system flathub
+flatpak install -y --user com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider org.qbittorrent.qBittorrent com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.mozilla.firefox org.gtk.Gtk3theme.Adapta-Nokto-Eta org.kde.kdenlive
+sudo flatpak remote-delete --system flathub
 flatpak override --user --filesystem=xdg-config/MangoHud:ro com.valvesoftware.Steam
 ## pfetch
 sudo wget https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch -O /bin/pfetch
 sudo chmod +x /bin/pfetch
+## fix cedilla
+wget -q https://raw.githubusercontent.com/marcopaganini/gnome-cedilla-fix/master/fix-cedilla -O /tmp/fix-cedilla
+cd /tmp/
+sudo ./fix-cedilla
 
 # Removing Mint's welcome screen.
 mkdir -p "/$HOME/.linuxmint/mintwelcome/"
@@ -37,18 +39,22 @@ touch "/$HOME/.linuxmint/mintwelcome/norun.flag"
 
 # Installing Adapta Nokto/Papirus from source. | Instalando Adapta Nokto/Papirus da fonte.
 ## Adapta Nokto
-git clone https://github.com/adapta-project/adapta-gtk-theme "$HOME/adapta-gtk-theme/"
-cd "$HOME/adapta-gtk-theme/"
+git clone https://github.com/adapta-project/adapta-gtk-theme "/tmp/adapta-gtk-theme/"
+cd "/tmp/adapta-gtk-theme/"
 ./autogen.sh --prefix=/usr --enable-parallel 
 make
 sudo make install
 ## Papirus
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ## Capitaine Cursors
-git clone https://github.com/keeferrourke/capitaine-cursors "$HOME/capitaine-cursors"
-cd "$HOME/capitaine-cursors"
+git clone https://github.com/keeferrourke/capitaine-cursors "/tmp/capitaine-cursors"
+cd "/tmp/capitaine-cursors"
 ./build.sh -p unix -t dark
-sudo cp -pr "$HOME/capitaine-cursors/dist/dark/" "/usr/share/icons/capitaine-cursors"
+sudo cp -pr "/tmp/capitaine-cursors/dist/dark/" "/usr/share/icons/Capitaine-Cursors-Dark"
+## Grub Theming
+git clone https://github.com/vinceliuice/grub2-themes "/tmp/grub2-themes"
+cd "/tmp/grub2-themes"
+sudo ./install.sh -b -t tela
 
 # Applying my MandoHud configuration. | Aplicando minhas configurações do MangoHud.
 mkdir -p "$HOME/.config/MangoHud"
@@ -58,7 +64,7 @@ wget "https://cdn.discordapp.com/attachments/777538729119973397/9837050659215933
 gsettings set org.cinnamon.desktop.wm.preferences theme 'Adapta-Nokto-Eta'
 gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'
 gsettings set org.cinnamon.desktop.interface gtk-theme 'Adapta-Nokto-Eta'
-gsettings set org.cinnamon.desktop.interface cursor-theme 'capitaine-cursors'
+gsettings set org.cinnamon.desktop.interface cursor-theme 'Capitaine-Cursors-Dark'
 gsettings set org.cinnamon.theme name 'Adapta-Nokto'
 
 # It's over!

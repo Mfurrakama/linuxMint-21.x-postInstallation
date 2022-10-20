@@ -1,14 +1,14 @@
 # Linux Mint 21.x Post Installation Script
-A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy! | Um script que ajusta o Linux Mint para minhas preferências, espero que goste!
+A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy!
 
 ## Installation | Instalação
-Open your terminal (control + alt + t) and type the following command: | Abra seu terminal (Ctrl + Alt + T) e digite o comando a seguir:
+Open your terminal (control + alt + t) and type the following command:
 ```sh
 curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/install.sh | bash
 ```
 
-## Uninstallation | Desinstalação
-Open your terminal (control + alt + t) and type the following command: | Abra seu terminal (Ctrl + Alt + T) e digite o comando a seguir:
+## Uninstallation
+Open your terminal (control + alt + t) and type the following command:
 ```sh
 curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstallation/main/revert.sh | bash
 ```
@@ -27,15 +27,14 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   * [Why I created this?](#why-i-created-this)
 
 ## Preview
-### Desktop | Área de Trabalho
+### Desktop
 ![](assets/Screenshot01.png)
-### File Manager | Gerenciador de arquivos
+### File Manager
 ![](assets/Screenshot02.png)
 ### Terminal
 ![](assets/Screenshot03.png)
 
-## My hardware and my needs (en_US)
-
+## My hardware and my needs
   #### Hardware
   - **CPU**: Intel Core i5-10400F
   - **GPU**: ASUS Phoenix NVIDIA 1650 4GB GDDR6
@@ -67,15 +66,14 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
    **apt**
   - [Virt-manager](https://virt-manager.org/)
   - [pfetch](https://github.com/dylanaraps/pfetch)
-  - [Lutris](https://lutris.net/)
   - [WineHQ (Staging)](https://www.winehq.org/)
   - [Snap](https://snapcraft.io/)
   - [Nala](https://gitlab.com/volian/nala)
   - [MangoHud](https://github.com/flightlessmango/MangoHud)
+  - [Qbittorrent](https://www.qbittorrent.org/)
 
    **flatpak**
   - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
-  - [Qbittorrent](https://flathub.org/apps/details/org.qbittorrent.qBittorrent)
   - [Steam](https://flathub.org/apps/details/com.valvesoftware.Steam)
   - [Brave Browser](https://flathub.org/apps/details/com.brave.Browser)
   - [Signal](https://flathub.org/apps/details/org.signal.Signal)
@@ -85,65 +83,8 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [ONLYOFFICE](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
   - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
-  - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
   - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive)
+  - [Lutris](https://flathub.org/apps/details/net.lutris.Lutris)
 
   #### Why I created this?
 Because I need someway to install all my preferences in short period of time. Nowadays I use PopOS! With 2 computers I also run Linux Mint on my secundary PC, this script may recieve better support overtime.
-  
-  ## Meu hardware e minhas necessidades (pt_BR)
-  
-  #### Hardware
-  - **Processador**: Intel Core i5-10400F
-  - **Placa de vídeo**: ASUS Phoenix NVIDIA 1650 4GB GDDR6
-  - **Placa mãe**: TUF Gaming B460M-Plus
-  - **RAM**: Alguma memória aleatória da Corsair 16 (x2) overclockada para 2666 MHz
-  - **SSD**: 960 GB (SATA)
-  - **HDD**: 1 500 TB
-  - **Fonte**: EVGA 600W 80 Plus
-
-### O que esse script vai fazer?
-  - Remover e instalar pacotes;
-  - Alterar alguns arquivos de configuração;
-  - Compilar alguns programas (Eles são exceções).
-
-  #### Apps que vão ser removidos:
-  - ~~LibreOffice~~
-  - ~~Hexchat~~
-  - ~~Thunderbird~~
-  - ~~Transmission~~
-  - ~~Firefox~~
-
-  ### PPAs que vão ser adicionados:
-  - [Lutris](https://launchpad.net/~lutris-team/+archive/ubuntu/lutris)
-  - [MangoHud](https://launchpad.net/~flexiondotorg/+archive/ubuntu/mangohud)
-  - [WineHQ](https://wiki.winehq.org/Ubuntu)
-  - [Nala](https://gitlab.com/volian/nala)
-
-  #### Apps que vão ser instalados:
-   **apt**
-  - [Virt-manager](https://virt-manager.org/)
-  - [pfetch](https://github.com/dylanaraps/pfetch)
-  - [Lutris](https://lutris.net/)
-  - [WineHQ (Staging)](https://www.winehq.org/)
-  - [Snap](https://snapcraft.io/)
-  - [Nala](https://gitlab.com/volian/nala)
-  - [MangoHud](https://github.com/flightlessmango/MangoHud)
-
-   **flatpak**
-  - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
-  - [Qbittorrent](https://flathub.org/apps/details/org.qbittorrent.qBittorrent)
-  - [Steam](https://flathub.org/apps/details/com.valvesoftware.Steam)
-  - [Brave Browser](https://flathub.org/apps/details/com.brave.Browser)
-  - [Signal](https://flathub.org/apps/details/org.signal.Signal)
-  - [OBS Studio](https://flathub.org/apps/details/com.obsproject.Studio)
-  - [Cider](https://flathub.org/apps/details/sh.cider.Cider)
-  - [Barrier](https://flathub.org/apps/details/com.github.debauchee.barrier)
-  - [ONLYOFFICE](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
-  - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
-  - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
-  - [Firefox](https://flathub.org/apps/details/org.mozilla.firefox)
-  - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive)
-
-  #### Por que eu criei isso?
-  Porque eu preciso de um jeito para instalar minhas preferências o mais rápido possível. Hoje em dia eu uso o PopOS! Com 2 computadores eu também uso o Linux Mint no meu computador secundário, esse script vai receber um suporte melhor com o passar do tempo.

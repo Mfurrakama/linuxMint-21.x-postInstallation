@@ -18,7 +18,7 @@ sudo nala install -y mint-meta-codecs snapd git adb fastboot neovim virt-manager
 sudo nala clean
 ## flatpak
 flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install -y --user com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.gtk.Gtk3theme.Adapta-Nokto-Eta org.kde.kdenlive net.lutris.Lutris
+flatpak install -y --user com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 sh.cider.Cider com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.gtk.Gtk3theme.Adapta-Nokto-Eta org.kde.kdenlive net.lutris.Lutris
 sudo flatpak remote-delete --system flathub
 flatpak override --user --filesystem=xdg-config/MangoHud:ro com.valvesoftware.Steam
 ## pfetch

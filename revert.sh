@@ -30,7 +30,7 @@ rm "$HOME.linuxmint/mintwelcome/norun.flag"
 sudo rm /bin/pfetch
 
 # Uninstalling flatpaks programs
-flatpak remove -y com.discordapp.Discord com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.gtk.Gtk3theme.Adapta-Nokto-Eta org.kde.kdenlive net.lutris.Lutris
+flatpak remove -y com.brave.Browser org.signal.Signal com.obsproject.Studio com.valvesoftware.Steam net.davidotek.pupgui2 org.freedesktop.Platform.VulkanLayer.MangoHud sh.cider.Cider com.github.debauchee.barrier org.onlyoffice.desktopeditors com.obsproject.Studio.Plugin.OBSVkCapture com.stremio.Stremio org.gtk.Gtk3theme.Adapta-Nokto-Eta
 
 # Removing Adittional packages
 sudo apt remove -y mint-meta-codecs git adb fastboot virt-manager neofetch neofetch gamemode mangohud lutris winehq-staging autoconf automake inkscape v4l2loopback-dkms wine64 wine32 libasound2-plugins:i386 libsdl2-2.0-0:i386 libdbus-1-3:i386 libsqlite3-0:i386

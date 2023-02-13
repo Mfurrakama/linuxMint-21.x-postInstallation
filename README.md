@@ -1,5 +1,5 @@
 # Linux Mint 21.x Post Installation Script
-A script that adjusts the Linux Mint 20.x into my personal taste, hope you enjoy!
+A script that adjusts the Linux Mint 21.x into my personal taste, hope you enjoy!
 
 ## Installation | Instalação
 Open your terminal (control + alt + t) and type the following command:
@@ -39,9 +39,8 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - **CPU**: Intel Core i5-10400F
   - **GPU**: ASUS Phoenix NVIDIA 1650 4GB GDDR6
   - **MB**: TUF Gaming B460M-Plus
-  - **RAM**: Some random 16 GB Corsair (x2) overclocked to 2666 MHz
-  - **SSD**: 960 GB (SATA)
-  - **HDD**: 1 500 TB
+  - **RAM**: 16GBx2 2666 MT/s
+  - **SSD**: 1TB NVMe
   - **PSU**: EVGA 600W 80 Plus
   
   ### What will this script do?
@@ -57,23 +56,18 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - ~~Firefox~~
   
   #### PPAs that are going to be added:
-  - [Lutris](https://launchpad.net/~lutris-team/+archive/ubuntu/lutris)
-  - [MangoHud](https://launchpad.net/~flexiondotorg/+archive/ubuntu/mangohud)
   - [WineHQ](https://wiki.winehq.org/Ubuntu)
   - [Nala](https://gitlab.com/volian/nala)
   
   #### Apps that are going to be installed:
    **apt**
   - [Virt-manager](https://virt-manager.org/)
-  - [pfetch](https://github.com/dylanaraps/pfetch)
   - [WineHQ (Staging)](https://www.winehq.org/)
-  - [Snap](https://snapcraft.io/)
   - [Nala](https://gitlab.com/volian/nala)
   - [MangoHud](https://github.com/flightlessmango/MangoHud)
   - [Qbittorrent](https://www.qbittorrent.org/)
 
    **flatpak**
-  - [Discord](https://flathub.org/apps/details/com.discordapp.Discord)
   - [Steam](https://flathub.org/apps/details/com.valvesoftware.Steam)
   - [Brave Browser](https://flathub.org/apps/details/com.brave.Browser)
   - [Signal](https://flathub.org/apps/details/org.signal.Signal)
@@ -83,8 +77,6 @@ curl -sSL https://raw.githubusercontent.com/Mfurrakama/linuxMint-20.x-postInstal
   - [ONLYOFFICE](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
   - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP)
   - [Stremio](https://flathub.org/apps/details/com.stremio.Stremio)
-  - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive)
-  - [Lutris](https://flathub.org/apps/details/net.lutris.Lutris)
 
   #### Why I created this?
 Because I need someway to install all my preferences in short period of time. Nowadays I use PopOS! With 2 computers I also run Linux Mint on my secundary PC, this script may recieve better support overtime.

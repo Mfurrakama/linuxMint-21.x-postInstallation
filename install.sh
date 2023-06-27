@@ -40,7 +40,6 @@ installing_packages () {
     libsqlite3-0:i386 \
     v4l2loopback-dkms \
     qbittorrent \
-    steam-devices --no-install-recommends \
     winehq-staging --install-recommends
 }
 
@@ -63,8 +62,12 @@ installing_flatpak_packages (){
     com.github.debauchee.barrier \
     org.onlyoffice.desktopeditors \
     com.obsproject.Studio.Plugin.OBSVkCapture \
-    com.stremio.Stremio org.gtk.Gtk3theme.Adapta-Nokto-Eta
+    com.stremio.Stremio \
+    net.lutris.Lutris \
+    com.valvesoftware.Steam.CompatibilityTool.Proton-GE \
+    org.gtk.Gtk3theme.Adapta-Nokto-Eta
     flatpak override --user --filesystem=xdg-config/MangoHud:ro com.valvesoftware.Steam
+    flatpak override --user --filesystem=xdg-config/MangoHud:ro com.heroicgameslauncher.hgl
 }
 
 ## pfetch
@@ -77,15 +80,7 @@ downloading_pfetch () {
 fix_cedilla () {
     wget -q https://raw.githubusercontent.com/marcopaganini/gnome-cedilla-fix/master/fix-cedilla -O /tmp/fix-cedilla
     chmod +x /tmp/fix-cedilla
-    sudo ./tmp/fix-cedilla
-}
-
-## Installing Lutris
-installing_lutris () {
-    wget "https://github.com/lutris/lutris/releases/download/v0.5.12/lutris_0.5.12_all.deb" -P /tmp/lutris
-    sudo dpkg -i /tmp/lutris/*.deb
-    rm -rf "/tmp/lutris"
-    sudo apt --fix-broken install
+    sudo /tmp/fix-cedilla
 }
 
 # Removing Mint's welcome screen.
@@ -106,7 +101,7 @@ theming () {
 
     ## Grub Theming
     git clone https://github.com/vinceliuice/grub2-themes "/tmp/grub2-themes"
-    sudo bash "/tmp/grub2-theme/install.sh -b -t tela"
+    sudo bash "/tmp/grub2-themes/install.sh -b -t tela"
     rm "/tmp/grub2-themes"
 }
 
@@ -119,9 +114,9 @@ mangohud_config () {
 # Changing the icon, themes, etc.
 applying_themes () {
     gsettings set org.cinnamon.desktop.interface cursor-theme 'Bibata-Modern-Classic'
-    gsettings set org.cinnamon.desktop.interface gtk-theme 'Catppucin-Mocha-Standard-Blue-Dark'
+    gsettings set org.cinnamon.desktop.interface gtk-theme 'Catppuccin-Mocha-Standard-Blue-Dark'
     gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'
-    gsettings set org.cinnamon.theme name 'Catppucin-Mocha-Standard-Blue-Dark'
+    gsettings set org.cinnamon.theme name 'Catppuccin-Mocha-Standard-Blue-Dark'
 }
 
 # Executing all fulctions
@@ -134,7 +129,6 @@ upgrading_and_cleaning
 installing_flatpak_packages
 downloading_pfetch
 fix_cedilla
-installing_lutris
 mint_welcome_remove
 theming
 mangohud_config
